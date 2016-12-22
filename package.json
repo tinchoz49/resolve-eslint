@@ -1,6 +1,6 @@
 {
   "name": "resolve-eslint",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Try to execute a local bin eslint before to execute the global",
   "main": "index.js",
   "bin": {
@@ -16,7 +16,11 @@
     "type": "git",
     "url": "git+https://github.com/tinchoz49/resolve-eslint.git"
   },
-  "keywords": [],
+  "keywords": [
+    "eslint",
+    "cli",
+    "local"
+  ],
   "author": "",
   "license": "MIT",
   "bugs": {
@@ -35,11 +39,6 @@
     "eslint": "^3.12.2",
     "find-up": "^2.1.0"
   },
-  "keywords": [
-    "eslint",
-    "cli",
-    "local"
-  ],
   "eslintConfig": {
     "extends": "xo/esnext",
     "rules": {
