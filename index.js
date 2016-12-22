@@ -9,7 +9,7 @@ const lastArgument = argv.length === 3 ?
     argv[argv.length - 1] :
     null;
 
-findUp('node_modules/.bin/eslint', {cwd: lastArgument}).then(filepath => {
+findUp('node_modules/eslint/bin/eslint', {cwd: lastArgument}).then(filepath => {
     if (filepath) {
         require(filepath);
     } else {
