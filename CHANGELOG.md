@@ -5,6 +5,8 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
+
+## [1.0.1] - 2016-12-22
 ### Fixed
 - local path
 
@@ -15,4 +17,5 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
   - first tests
   - CI support
 
-[unreleased]: https://github.com/tinchoz49/resolve-eslint/compare/v1.0.0...HEAD
+[unreleased]: https://github.com/tinchoz49/resolve-eslint/compare/v1.0.1...HEAD
+[1.0.1]: https://github.com/tinchoz49/resolve-eslint/compare/v1.0.0...v1.0.1

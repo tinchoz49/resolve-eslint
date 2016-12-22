@@ -1,6 +1,6 @@
 {
   "name": "resolve-eslint",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Try to execute a local bin eslint before to execute the global",
   "main": "index.js",
   "bin": {
