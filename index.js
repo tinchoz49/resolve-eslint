@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+
 'use strict';
 
 const findUp = require('find-up');
@@ -9,10 +10,9 @@ const lastArgument = argv.length === 3 ?
     argv[argv.length - 1] :
     null;
 
-findUp('node_modules/eslint/bin/eslint', {cwd: lastArgument}).then(filepath => {
-    if (filepath) {
-        require(filepath);
-    } else {
-        require('eslint/bin/eslint');
-    }
-});
+const filepath = findUp.sync('node_modules/eslint/bin/eslint.js', {cwd: lastArgument});
+if (filepath) {
+    require(filepath);
+} else {
+    require('eslint/bin/eslint');
+}
