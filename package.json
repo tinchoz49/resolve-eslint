@@ -35,6 +35,11 @@
     "eslint": "^3.12.2",
     "find-up": "^2.1.0"
   },
+  "keywords": [
+    "eslint",
+    "cli",
+    "local"
+  ],
   "eslintConfig": {
     "extends": "xo/esnext",
     "rules": {
