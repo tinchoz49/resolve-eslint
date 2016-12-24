@@ -1,7 +1,7 @@
 {
   "name": "resolve-eslint",
   "version": "1.0.3",
-  "description": "Try to execute a local bin eslint before to execute the global",
+  "description": "Try to execute a local bin eslint before executing a global fallback eslint",
   "main": "index.js",
   "bin": {
     "eslint": "index.js"
